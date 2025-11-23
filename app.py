@@ -32,7 +32,7 @@ if __name__ == "__main__":
             "Select the Language Model",
             ["Google", "Groq-Llama"]
         )
-        API_KEY = st.text_input("Enter the API key")
+        API_KEY = st.text_input("Enter the API key", type="password")
 
     if model and API_KEY:
         
